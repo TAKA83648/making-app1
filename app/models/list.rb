@@ -3,5 +3,6 @@ class List < ApplicationRecord
   
   validates :title, presence: true
   validates :body, presence: true
+  #一時的なコメントアウト
   validates :image, presence: true
 end
